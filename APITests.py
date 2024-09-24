@@ -53,7 +53,7 @@ def create_user(user_name, user_job):
     created_job = response.json()['job']
     response_status = response.status_code
     return created_name, created_job, response_status
-
+#Question 3
 def update_user(ID, user_name, user_job):
     """
           Documentation: This function uses the provided user ID to update a specific user
@@ -80,7 +80,7 @@ def update_user(ID, user_name, user_job):
     response_status = response.status_code
     return updated_name, updated_job, response_status
 
-
+#Question 4
 def delete_user(Id):
     """
           Documentation: This function uses the provided user ID to delete a specific user
